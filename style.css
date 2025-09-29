@@ -1,8 +1,42 @@
-/*
-    colours:
-    primary branding    = #d8b24f
-    header 4            = #434344
-    for grey paragraphs = #878e94
-    font-family         = 'Montserrat', sans-serif
-    box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
-*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav {
+  background: #444;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #61dafb;
+}
+
+section {
+  padding: 40px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
